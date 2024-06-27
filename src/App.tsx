@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Login from "./pages/Login";
+import Login from "./pages/Login1";
 
 function App() {
   const action = useNavigationType();
@@ -24,6 +25,10 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/login":
         title = "";
         metaDescription = "";
         break;
@@ -46,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 }

@@ -1,0 +1,135 @@
+.libraryIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6.6px;
+  height: 43.8px;
+}
+.homeIcon,
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 6.2px;
+  left: 7.5px;
+  width: 6.5px;
+  height: 37.6px;
+}
+.homeIcon,
+.vectorIcon1 {
+  top: 0;
+  left: 14.8px;
+  height: 43.9px;
+}
+.homeIcon {
+  top: 11px;
+  left: 21.9px;
+  width: 15.2px;
+  height: 32.9px;
+}
+.iconList {
+  height: 43.9px;
+  width: 37.1px;
+  position: relative;
+  flex-shrink: 0;
+}
+.nounIcons {
+  width: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.createdByDavid,
+.fromTheNoun {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.createdByDavid {
+  height: 44px;
+  width: 44px;
+}
+.fromTheNoun {
+  align-self: stretch;
+  height: 5px;
+  z-index: 1;
+}
+.creator {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-2) 0 0;
+  margin-left: -44px;
+}
+.addIcon,
+.libraryIcons,
+.nounLibrary1167732 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.addIcon {
+  width: 53px;
+  height: 16.6px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs-4);
+  flex-shrink: 0;
+}
+.libraryIcons,
+.nounLibrary1167732 {
+  flex-direction: column;
+}
+.nounLibrary1167732 {
+  align-self: stretch;
+  height: 55px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs-1);
+  gap: var(--gap-8xs-5);
+}
+.libraryIcons {
+  width: 59px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) var(--padding-3xs) 0;
+}
+.nounAdd68858442Icon,
+.nounHome68835642Icon {
+  height: 75px;
+  width: 61px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nounAdd68858442Icon {
+  margin-bottom: -2px;
+  height: 79px;
+  width: 64px;
+}
+.library,
+.libraryContent {
+  display: flex;
+  flex-direction: row;
+}
+.libraryContent {
+  height: 77px;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.library {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-16xl) 0 var(--padding-22xl);
+  text-align: left;
+  font-size: var(--font-size-8xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-helvetica);
+}

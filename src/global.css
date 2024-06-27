@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Font+Awesome+6+Free:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
@@ -10,14 +11,18 @@ body {
   /* fonts */
   --font-vazirmatn: Vazirmatn;
   --font-font-awesome-6-free: "Font Awesome 6 Free";
+  --font-helvetica: Helvetica;
 
   /* font sizes */
   --font-size-base: 16px;
   --font-size-2xs: 11px;
   --font-size-sm: 14px;
   --font-size-5xl: 24px;
+  --font-size-8xs: 5px;
+  --font-size-3xs: 10px;
 
   /* Colors */
+  --color-burlywood: #daaa63;
   --color-black: #000;
   --color-white: #fff;
   --color-gray-100: #fffdfd;
@@ -28,10 +33,14 @@ body {
   --gap-70xl: 89px;
   --gap-9xl-3: 28.3px;
   --gap-xl: 20px;
+  --gap-5xs: 8px;
+  --gap-8xs-5: 4.5px;
+  --gap-lgi: 19px;
 
   /* Paddings */
   --padding-11xl: 30px;
   --padding-xl: 20px;
+  --padding-9xs: 4px;
   --padding-14xl: 33px;
   --padding-sm: 14px;
   --padding-smi: 13px;
@@ -40,6 +49,17 @@ body {
   --padding-mini: 15px;
   --padding-12xs: 1px;
   --padding-15xl: 34px;
+  --padding-6xs: 7px;
+  --padding-16xl: 35px;
+  --padding-22xl: 41px;
+  --padding-3xs: 10px;
+  --padding-xs-1: 11.1px;
+  --padding-3xs-4: 9.4px;
+  --padding-10xs-2: 2.2px;
+  --padding-11xs: 2px;
+  --padding-7xs: 6px;
+  --padding-8xs: 5px;
+  --padding-4xs: 9px;
 
   /* Border radiuses */
   --br-21xl: 40px;
