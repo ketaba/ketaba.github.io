@@ -1,0 +1,118 @@
+.frameChild {
+  width: 360px;
+  height: 555px;
+  position: relative;
+  box-shadow: 0 9px 15px 5px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.logoIcon {
+  width: 17px;
+  height: 15px;
+  position: relative;
+  z-index: 1;
+}
+.authContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7px 0 0;
+}
+.a {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 61px;
+  z-index: 1;
+}
+.authContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameItem {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.rectangleParent {
+  align-self: stretch;
+  box-shadow: 0 9px 15px 5px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) 37px 43px 39px;
+  box-sizing: border-box;
+  gap: 85px;
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-vazirmatn);
+}
+.b,
+.div {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+}
+.div {
+  min-width: 88px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+  font-size: 12px;
+}
+.registrationContainer,
+.registrationContainerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.registrationContainer {
+  justify-content: flex-start;
+  gap: 5px;
+}
+.registrationContainerWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-11xl);
+}
+.login {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: #daaa63;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: 33px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-vazirmatn);
+}
